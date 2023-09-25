@@ -5,9 +5,9 @@ import Graham_Scan as gs
 import time
     
 # make the data
-np.random.seed(5)
-x = np.random.normal(15, 3, 100)
-y = np.random.normal(15, 3, len(x))
+np.random.seed(37)
+x = np.random.normal(15, 6, 100)
+y = np.random.normal(15, 5, len(x))
 Scatter = [(x[i],y[i]) for i in range(len(x))]
 
 plt.ion()
